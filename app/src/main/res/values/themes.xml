@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cofee4you" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Налаштуйте кнопки -->
+        <item name="materialButtonStyle">@style/CustomMaterialButtonStyle</item>
+    </style>
+
+    <style name="CustomMaterialButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/coffee_brown</item> <!-- Кавовий колір -->
+        <item name="cornerRadius">12dp</item> <!-- Закруглені краї -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Білий текст -->
+    </style>
+
+    <style name="Theme.Cofee4you" parent="Base.Theme.Cofee4you" />
+</resources>

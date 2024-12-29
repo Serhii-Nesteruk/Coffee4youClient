@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/invite_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Invite your friend and start make a money"
+        android:textColor="#8B4513"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Поле з посиланням -->
+    <LinearLayout
+        android:id="@+id/link_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/invite_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="horizontal"
+        android:background="#FADAB8"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/invite_link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/copy_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_copy"
+            android:contentDescription="Copy link" />
+    </LinearLayout>
+
+    <!-- Кнопка CREATE NEW -->
+    <Button
+        android:id="@+id/create_new_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link_container"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="CREATE NEW"
+        android:backgroundTint="#FFA500"
+        android:textColor="#FFF" />
+
+    <!-- Текст з поясненням -->
+    <TextView
+        android:id="@+id/reward_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_new_button"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Since your friend buy our tarrif\n you will get 50% of the amount"
+        android:textSize="14sp"
+        android:textColor="#7D7D7D"
+        android:gravity="center" />
+
+    <!-- Тарифи -->
+
+    <!-- Нижнє меню -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background"
+        app:itemIconTint="@color/bottom_nav_icon_color"
+        app:itemTextColor="@color/bottom_nav_text_color"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

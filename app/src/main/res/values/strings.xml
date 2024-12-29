@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cofee4you</string>
+    <string name="facebook_app_id">2261824680840025</string> <!--It's an temp app id, Only for dev-->
+</resources>

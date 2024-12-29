@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "136306374819",
+    "project_id": "coffee4you-e458b",
+    "storage_bucket": "coffee4you-e458b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136306374819:android:2568acdce4d01b6779a716",
+        "android_client_info": {
+          "package_name": "com.coffee4you"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjUixmLQOLuZ0pJ8PQptxzOtCNAvAbRDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

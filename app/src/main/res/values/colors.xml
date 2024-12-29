@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="coffee_background">#FAF3E0</color>
+    <color name="coffee_brown">#6F4E37</color>
+    <color name="coffee_icon_tint">#D2B48C</color>
+    <color name="coffee_active">#CC8400</color>
+    <color name="bottom_nav_icon_color">#CC8400</color>
+    <color name="bottom_nav_text_color">#FFA500</color>
+    <color name="app_background_color">#f5f7f7</color>
+    <color name="base_tariff_background_color">#9a9a9a</color>
+    <color name="pro_tariff_background_color">#BFA100</color>
+    <color name="premium_tariff_background_color">#82aeb3</color>
+    <color name="exclusive_tariff_background_color">#6F4E37</color>
+</resources>
